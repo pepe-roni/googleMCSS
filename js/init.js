@@ -174,6 +174,7 @@
     $('.carousel').carousel();
     $('.slider').slider();
     $('.parallax').parallax();
+	$(".dropdown-trigger").dropdown();
     $('.modal').modal();
     $('.scrollspy').scrollSpy();
     $('.button-collapse').sideNav({'edge': 'left'});
