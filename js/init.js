@@ -173,6 +173,7 @@
     $('.carousel.carousel-slider').carousel({fullWidth: true});
     $('.carousel').carousel();
     $('.slider').slider();
+    $('.carousel').carousel();
     $('.parallax').parallax();
 	$(".dropdown-trigger").dropdown();
     $('.modal').modal();
@@ -181,6 +182,9 @@
     $('.datepicker').pickadate({selectYears: 20});
     $('.timepicker').pickatime();
     $('select').not('.disabled').material_select();
+    $('.carousel.carousel-slider').carousel({
+	  indicators: true
+    });
     $('input.autocomplete').autocomplete({
       data: {"Apple": null, "Microsoft": null, "Google": 'http://placehold.it/250x250'},
     });
